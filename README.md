@@ -1,0 +1,2 @@
+# chatserver
+基于nginx实现tcp负载均衡的集群聊天服务器和客户端源码。redis发布-订阅机制实现跨服务器交互，muduo网络库和mysql数据库实现主体功能。
