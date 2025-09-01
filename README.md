@@ -2,11 +2,11 @@
 基于nginx实现tcp负载均衡的muduo的集群聊天服务器和客户端源码。  
 
 编译项：./autobuild.sh 即可自动编译项目    
-  或者  
-    cd build/  
-         rm -rf *  
-         cmake ..  
-         make       也可实现项目的编译  
+  &emsp;或者  
+    &emsp;cd build/  
+         &emsp;rm -rf *  
+         &emsp;cmake ..  
+         &emsp;make       也可实现项目的编译  
 运行：  
       cd bin/  
       ./chatserver ip port  //服务器的ip和端口号    
