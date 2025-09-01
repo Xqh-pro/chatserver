@@ -9,10 +9,13 @@
          make       也可实现项目的编译
 运行：
       cd bin/
+      
       ./chatserver ip port  //服务器的ip和端口号
+      
       ./chatclient ip port  //接入nginx服务器
+      
 目录说明：
-      bin/ 包含了编译生成的可执行文件  
+      bin/ 包含了编译生成的可执行文件    
       build/ 包含了编译生成的中间文件
       include/ 包含了源文件依赖的头文件
       src/ 包含了服务端和客户端的所有源文件代码
